@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ability Bridge Enterprises | General Supplies & Poultry Farming</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="logo-area">
+            <img
+                src="{{ url_for('static', filename='images/Ability Bridge Enterprises Poultry Badge.png') }}"
+                alt="Ability Bridge Enterprises Logo"
+                class="business-logo">
+        </div>
+
+        <div class="business-brand">
+            <h1>ABILITY BRIDGE ENTERPRISES</h1>
+            <p>Connecting People, Creating Opportunities.</p>
+        </div>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="container">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#supplies">General Supplies</a>
+            <a href="#services">Services</a>
+            <a href="#poultry">Poultry Farming</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Ability Bridge Enterprises</h2>
+
+            <p>
+                Your trusted partner in general supplies, procurement,
+                business services and poultry farming.
+            </p>
+
+            <a href="#supplies" class="button">Explore Our Supplies</a>
+        </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Ability Bridge Enterprises</h2>
+
+            <p>
+                Ability Bridge Enterprises is committed to providing reliable
+                general supplies, professional business services and sustainable
+                poultry farming opportunities.
+            </p>
+
+            <p>
+                Our goal is to build lasting customer relationships through
+                quality products, integrity, reliability and inclusive
+                economic opportunities.
+            </p>
+        </div>
+    </section>
+
+    <!-- GENERAL SUPPLIES -->
+    <section id="supplies" class="section supplies">
+        <div class="container">
+            <h2>General Supplies</h2>
+
+            <p>
+                Ability Bridge Enterprises aims to provide dependable supply
+                solutions to individuals, businesses and institutions.
+            </p>
+
+            <div class="services-grid">
+
+                <div class="card">
+                    <h3>Office Supplies</h3>
+                    <p>
+                        Stationery, office consumables and other office
+                        requirements, subject to availability and enquiry.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Institutional Supplies</h3>
+                    <p>
+                        Supply solutions for institutions and organisations
+                        based on their requirements.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>General Merchandise</h3>
+                    <p>
+                        A range of general goods and products based on
+                        customer needs and availability.
+                    </p>
+                </div>
+
+            </div>
+
+            <p>
+                Contact us to discuss your requirements, product availability
+                and quotations.
+            </p>
+
+            <a href="#contact" class="button">Request a Quotation</a>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="section services">
+        <div class="container">
+            <h2>Our Services</h2>
+
+            <p>
+                We aim to support our clients through responsive service,
+                reliable coordination and solutions tailored to their needs.
+            </p>
+
+            <div class="services-grid">
+
+                <div class="card">
+                    <h3>Procurement Support</h3>
+                    <p>
+                        Assistance with identifying supply requirements,
+                        coordinating orders and responding to quotation
+                        enquiries.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Order Coordination</h3>
+                    <p>
+                        Coordination of customer enquiries, product
+                        requirements and supply arrangements.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Customer Support</h3>
+                    <p>
+                        Assistance with product enquiries, availability,
+                        quotations and order follow-up.
+                    </p>
+                </div>
+
+            </div>
+
+            <p>
+                Please contact us to discuss your specific service needs.
+            </p>
+
+            <a href="#contact" class="button">Enquire About Our Services</a>
+        </div>
+    </section>
+
+    <!-- POULTRY FARMING -->
+    <section id="poultry" class="section poultry">
+        <div class="container">
+
+            <h2>Our Poultry Farming Business</h2>
+
+            <p>
+                Ability Bridge Enterprises offers Pure Kienyeji and Sasso
+                Matured chickens for customers interested in poultry farming
+                and poultry products. Availability is subject to enquiry.
+            </p>
+
+            <div class="poultry-catalogue">
+
+                <!-- PURE KIENYEJI -->
+                <div class="card poultry-product">
+                  <img
+    class="product-image pure-kienyeji-image"
+    src="{{ url_for('static', filename='images/poultry/pure kienyeji.jpg') }}"
+    alt="Pure Kienyeji chickens">  
+
+                    <h3>Pure Kienyeji</h3>
+
+                    <p>
+                        Quality Pure Kienyeji chickens for your poultry
+                        farming and business needs.
+                    </p>
+
+                    <p class="product-price">Price on Enquiry</p>
+
+                    <a href="#contact" class="button">Enquire Now</a>
+                </div>
+
+                <!-- SASSO MATURED -->
+                <div class="card poultry-product">
+                    <img
+                        class="product-image"
+                        src="{{ url_for('static', filename='images/poultry/sasso matured.jpg') }}"
+                        alt="Sasso Matured chickens">
+
+                    <h3>Sasso Matured</h3>
+
+                    <p>
+                        Quality matured Sasso chickens for customers
+                        interested in poultry farming and meat production.
+                    </p>
+
+                    <p class="product-price">Price on Enquiry</p>
+
+                    <a href="#contact" class="button">Enquire Now</a>
+                </div>
+
+            </div>
+
+            <p class="poultry-note">
+                For current prices, available quantities and orders,
+                please contact Ability Bridge Enterprises.
+            </p>
+
+            <a
+                href="https://wa.me/254703254444?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20your%20Pure%20Kienyeji%20and%20Sasso%20Matured%20chickens."
+                class="button"
+                target="_blank"
+                rel="noopener noreferrer">
+                Enquire About Poultry on WhatsApp
+            </a>
+
+        </div>
+    </section>
+
+    <!-- CONTACT US -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+
+            <p>
+                Thank you for your interest in Ability Bridge Enterprises.
+                We welcome enquiries about our supplies, services and
+                poultry products.
+<p>
+    <strong>Call Us:</strong>
+    <a href="tel:+254703254444">0703 254 444</a>
+    |
+    <a href="tel:+254710208894">0710 208 894</a>
+</p>
+
+                <strong>WhatsApp:</strong>
+                <a
+                    href="https://wa.me/254703254444"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    Chat with us on WhatsApp
+                </a>
+            </p>
+
+            <p>
+                Contact us for product information, quotations,
+                availability and business enquiries.
+            </p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>
+                &copy; 2026 Ability Bridge Enterprises.
+                All rights reserved.
+            </p>
+
+            <p>Connecting People, Creating Opportunities.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
